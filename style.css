@@ -1,0 +1,159 @@
+/* General */
+body
+{
+    font-family: Open Sans, Sans;
+    color: #555555;
+}
+.Bold
+{
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Header */
+header
+{
+    padding: 10px 50px 5px 50px;
+}
+header img
+{
+    width: 50px;
+    /* border: 10px solid red; */
+    border-radius: 50%;
+}
+header nav
+{
+    float: right;
+    margin-top: 7px;
+}
+header nav a
+{
+    margin: 0 10px;
+    font-size: 12px;
+}
+header nav a:hover
+{
+    color: #999999;
+}
+hr
+{
+    padding: 0;
+    color: gainsboro;
+}
+
+/* Top section */
+.TopSection
+{
+    padding: 10px;
+    background-color: #eeeeee;
+}
+.TopSection img
+{
+    width: 120px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 5px solid rgba(43, 43, 186, 0.548);
+}
+.TopSection h1
+{
+    font-size: 16px;
+    float: right;
+    margin-right: 30px;
+    width: 40%;
+}
+
+/* Middle section */
+.MiddleSection
+{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: gainsboro;
+}
+.MiddleSection div
+{
+    flex-basis: 70%;
+}
+.MiddleSection div p
+{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+}
+.MiddleSection nav
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    padding: 20px;
+}
+.MiddleSection nav a
+{
+    margin: 30px 0;
+    padding: 10px;
+    background-color: rgb(97, 97, 204);
+    border: 5px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+}
+.MiddleSection nav a:hover
+{
+    color: #999999;
+}
+
+/* Bottom section */
+.BottomSection
+{
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+}
+.BottomSection div
+{
+    flex-basis: 30%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 70px;
+    font-size: larger;
+}
+.BottomSection div:nth-child(1)
+{
+    background-color: #70ad47;
+}
+.BottomSection div:nth-child(2)
+{
+    background-color: #4472c4;
+}
+.BottomSection div:nth-child(3)
+{
+    background-color: #ed7d31;
+}
+
+/* Footer */
+footer
+{
+    background-color: #222222;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+footer nav
+{
+}
+footer nav a
+{
+    margin: 0 10px;
+    font-size: 12px;
+    color: white;
+}
+footer nav a:hover
+{
+    color: #999999;
+}
