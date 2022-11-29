@@ -1,0 +1,42 @@
+@keyframes AnimPicture 
+{
+    0% 
+    { 
+        margin-left: 50px;
+        width: 120px;
+        border-color: red;
+    }
+
+    25% 
+    { 
+        margin-left: 150px;
+        width: 150px;
+        border-color: blueviolet;
+    }
+
+    50% 
+    { 
+        margin-left: 250px;
+        width: 150px;
+        border-color: blue;
+    }
+
+    75% 
+    { 
+        margin-left: 350px;
+        width: 150px;
+        border-color: green;
+    }
+
+    100%    
+    {
+        margin-left: 450px;
+        width: 120px;
+        border-color: yellow;
+    }
+}
+
+.TopSection:hover img
+{
+    animation: AnimPicture 5s linear 1s infinite alternate none;
+}
