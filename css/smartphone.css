@@ -1,0 +1,64 @@
+@media screen and (min-width: 330px) and (max-width: 480px) 
+{ 
+
+/* General */
+body
+{
+    background-color: red;
+}
+
+/* Header */
+header
+{
+    padding: 5px;
+}
+
+/* Top section */
+.TopSection img
+{
+    display: none;
+}
+
+.TopSection h1
+{
+    float: none;
+    width: auto;
+    margin: 0;
+    text-align: center;
+}
+
+/* Middle section */
+.MiddleSection
+{
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.MiddleSection nav
+{
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.MiddleSection nav a
+{
+    width: auto;
+    margin: 0;
+}
+
+/* Bottom section */
+.BottomSection
+{
+    height: auto;
+}
+
+.BottomSection div
+{
+    font-size: smaller;
+    padding: 40px 5px;
+    word-wrap: break-word;
+}
+
+}

@@ -3,6 +3,7 @@ body
 {
     font-family: Open Sans, Sans;
     color: #555555;
+    background-color: chartreuse;
 }
 .Bold
 {
@@ -83,6 +84,7 @@ hr
     margin: 10px 0;
     padding: 10px;
     background-color: white;
+    text-align: justify;
 }
 .MiddleSection nav
 {
@@ -117,8 +119,7 @@ hr
 }
 .BottomSection div
 {
-    /* flex-basis: 33.33%; */
-    flex-grow: 1;
+    flex-basis: 33.33%;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -144,9 +145,6 @@ footer
     background-color: #222222;
     margin-top: 10px;
     padding: 10px 20px;
-}
-footer nav
-{
 }
 footer nav a
 {
